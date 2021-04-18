@@ -1,31 +1,6 @@
 #!/usr/bin/env python3
 # coding: utf-8
 
-"""
-Szavak előfordulási gyakorisága
-
-Állapítsuk meg, hogy az alábbi szövegben (TEXT) melyik szó hányszor fordul
-elő s írassuk ki az eredményt a következő formában:
-szó_1 előfordulások_száma_1
-szó_2 előfordulások_száma_2
-...
-
-Az eredményt úgy írassuk ki, hogy a lista szavak szerint rendezve legyen.
-Minden szó kisbetűsen szerepeljen, vagyis pl. a 'The' és 'the' szavak azonos
-szónak számítanak.
-
-Használjuk az str.split() függvényt (paraméter nélkül) a whitespace karakterek
-eltávolítására.
-
-Az egyes szavakhoz kapcsolódó írásjelekkel (pont, vessző, idézőjel, stb.)
-nem kell most foglalkozni.
-
-A programot ne egyben próbáljuk megírni. Először írjuk meg egy részét, majd
-próbáljuk ki, hogy addig jól működik-e. Ha igen, lépjünk tovább.
-"""
-
-#############################################################################
-
 TEXT = """The Old Sea-dog at the Admiral Benbow
 
 SQUIRE TRELAWNEY, Dr. Livesey, and the rest of these gentlemen having
